@@ -78,9 +78,14 @@
 ### 第 6 步：运行
 
 - **自动运行**：默认为每天下午 13:00、晚上 22:00（北京时间）自动执行，如需修改可在 `check.yml` 中修改 cron
-- **手动触发**：进入仓库 → Actions → iCourse Check → Run workflow
+- **手动触发**：进入仓库 → Actions → **iCourse Check** → Run workflow
 
 首次运行会处理所有已有录播，后续只处理新增课次。
+
+## 附加功能 Workflow
+
+- **reset_data**：重置课程的数据库
+- **single_run**：单次运行某些课程
 
 ## 本地运行（Linux环境）
 
